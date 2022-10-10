@@ -11,5 +11,5 @@ npm i connect-mongo
 git status
 git add .
 git status
-git commit -m 'comment here'
-git push -u orgin main
+git commit -m 'your message'
+git push -u origin main
