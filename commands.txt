@@ -6,3 +6,10 @@ npm i cookie-parser
 npm i cookie-parser
 npm i express-session
 npm i connect-mongo
+
+
+git status
+git add .
+git status
+git commit -m 'comment here'
+git push -u orgin main

@@ -3,9 +3,9 @@ import connectDB from './db/connectdb.js'
 import web from './routes/web.js'
 const app = express()
 const port = process.env.PORT || '3000'
-const dbName= 'blogdb';
+//const dbName= 'blogdb';
 //const DATABASE_URL = process.env.DATABASE_URL || "mongodb://localhost:27017"
-const DATABASE_URL = "mongodb+srv://srdec81:<password>@joinpath-cluster.ksxhe.mongodb.net/test";
+//const DATABASE_URL = "mongodb+srv://srdec81:<password>@joinpath-cluster.ksxhe.mongodb.net/test";
 //Database connection
 connectDB()
 

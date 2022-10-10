@@ -6,5 +6,7 @@ router.get('/', UserController.home)
 router.get('/registration',UserController.registration)
 router.post('/registration',UserController.createUserDoc)
 router.get('/login',UserController.login)
+router.post('/login',UserController.verifyLogin)
+router.get('/logout',UserController.logout)
 
 export default router
